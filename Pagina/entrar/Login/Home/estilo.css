@@ -1,0 +1,17 @@
+.capa{
+position: relative;
+
+}
+.img_capa{
+width: 500px;
+height: 400px;
+}
+.foto{
+position: absolute;
+
+}
+.img_foto{
+width: 200px;
+
+
+}

@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@keyframes banner{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+body{
+	margin: 0 auto;
+	background-color: #000;
+}
+.banner{
+	animation: banner 6s; 
+}
+.button{
+	/*margin-top: 100px;*/
+	width: 200px;
+	margin-left: 47vw;
+	margin-top: 250px;
+}
+.central h1 {
+	font-size: 4em;
+	padding: 0 0.5em 0.25em 0.5em;
+	font-weight: 200;
+font-family: 'Audiowide', cursive;
+	text-transform: none;
+	letter-spacing: 0;
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 5px;
+	border-bottom: solid 2px #ffffff;
+	width: 500px;
+	margin: 0 auto;
+	}
+
+header p{
+	text-transform: uppercase;
+	letter-spacing: 0.325rem;
+	font-weight: 400;
+	font-size: 0.8em;
+	padding: 0 1.25em;
+	text-align: center;
+	margin-top: 30px;
+}
+.login{
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: transparent;
+	margin: 0 auto;
+	
+	border: 1.5px solid #000;
+}
+.login:hover{
+	background-color: rgba(0,0,0,0.7);
+	border: 1.5px solid #FFF;
+	color: #fff;
+}
+.banner{
+	background: url(../img/inicio.jpg) no-repeat fixed;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+.form{
+	display: none;
+}
+.invi{
+	display: none;
+}
+#log{
+	color: #FFF;
+	font-size: 4em;
+	padding: 0 0.5em 0.25em 0.5em;
+	font-weight: 200;
+	font-family: 'Audiowide', cursive;
+	text-transform: none;
+	letter-spacing: 0;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#color{
+	color: #D3D3D3;
+}
+.formv{
+	display: block;
+	animation: banner 3s;
+	width: 30vw;
+	height: 300px;
+	background-color: rgba(0,0,0,0.7);
+	border: 1.5px solid #FFF;
+	border-radius: 2px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.7);
+	text-align: center;
+	margin: 0 auto;
+}
+h1{
+	font-family: 'Audiowide', cursive;
+	
+	border-bottom: solid 2px;
+    border-top: solid 2px;
+    font-size: 2.5em;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    margin: 0;
+    padding-left: 0.05em;
+    position: relative;
+    text-transform: uppercase;
+    width: 400px;
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    color: #FE2E2E;
+}
+.titulo{
+	
+}

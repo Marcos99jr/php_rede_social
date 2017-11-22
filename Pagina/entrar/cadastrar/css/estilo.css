@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+body{
+background-image: url(mesa.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.cad_form{
+	margin-top: 80px;
+	opacity:0.95;
+	background: url(form.png) no-repeat;
+	background-size: 100%;
+	width:700px;
+	height:480px;
+
+	text-align:center;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+label{
+	display: inline-block;
+	width: 110px;
+	font-family: 'Shadows Into Light', cursive;
+}
+h2{
+color:rgb(0,87,125);
+font-family: 'Shadows Into Light', cursive;
+}
+.send{
+background-color:rgb(163,199,199);
+margin:7px;
+}
+.rhombus{
+  width: 10px;
+  height: 10px;
+  background: rgb(191,147,54);
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.figure{
+position:relative;
+left:94px;
+}
+.frame{
+	position:re;
+
+}
